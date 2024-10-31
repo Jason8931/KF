@@ -1,0 +1,137 @@
+html, body{
+    background-color: #131313;
+}
+
+.hat {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.flag {
+    font-size: 50px;
+    margin: 0;
+}
+.zagolovok {
+    color: whitesmoke;
+    font-family: "Comfortaa", sans-serif;
+}
+.content {
+    margin-top: 50px;
+}
+.one-block {
+    background-color: #282828;
+    height: 120px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+.one-block:hover{
+    background-color: #353535;
+
+}
+.portal-in-konst {
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.portal-in-konst:hover{
+    background-color: #8dcd4a;
+}
+.tg-logo{
+    height: 50px;
+    margin-top: 10px;
+}
+
+.info{
+    color: whitesmoke;
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+}
+
+.txt-1{
+    color: whitesmoke;
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+}
+
+.back{
+    color: #8dcd4a;
+    font-family: "Comfortaa", sans-serif;
+    text-decoration: none;
+}
+
+.end-txt{
+    color: whitesmoke;
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+    font-size: x-large;
+}
+
+.zakon{
+    font-family: "Comfortaa", sans-serif;
+    color: whitesmoke;
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.zakon:hover{
+    color: white;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.punkt{
+    margin-top: 30px;
+}
+
+.container{
+    width: 600px;
+    position: absolute;
+    left: 53%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    margin-top: 30px;
+}
+
+.x{
+    font-family: "Comfortaa", sans-serif;
+    color: whitesmoke;
+    list-style-type: none;
+    text-decoration: none;
+}
+.y:hover{
+    color: white;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.navigation {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 90%;
+    left: 50%;
+}
+.b {
+    text-decoration: none;
+    color: #8dcd4a;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 30px;
+}
+.n {
+    text-decoration: none;
+    color: #8dcd4a;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 30px;
+}
